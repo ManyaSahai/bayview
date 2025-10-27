@@ -1,91 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Forum:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@400&display=swap"
-    />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- <img class="" alt="" src="./public/background.jpg" id="bckimg" /> -->
-    <div class="bckimg"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bayview Cafe Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-   
-    <img
-      class="untitled-design-23-removebg-icon"
-      alt=""
-      src="./public/logo1.png"
-    />
+<body>
 
-    <img class="untitled-design-19-1" alt="" src="./public/logo2.png" />
+  <div class="menu-container">
+    <img src="public/logo1.png" alt="Bayview Cafe Logo" class="logo-bayview">
+    <img src="public/logo2.png" alt="Hotel Harbour View Logo" class="logo-hotel">
 
-    <!-- <div class="frame-child hover:translate-y-[-1.5rem]"></div>
-      <div class="breakfast hover:translate-y-[-1.5rem]">BREAKFAST</div>
-      <div class="frame-item"></div>
-      <div class="food">FOOD</div>
-      <div class="frame-inner"></div>
-      <div class="drinks">DRINKS</div> -->
+    <img src="images/6.png" alt="Pizza" class="food-item" id="food-pizza">
+    <img src="images/2.png" alt="Dessert" class="food-item" id="food-dessert">
+    <img src="images/5.png" alt="Platter" class="food-item" id="food-platter">
+    <img src="images/3.png" alt="Paneer Tikka" class="food-item" id="food-paneer-right">
+    <img src="images/7 (1).png" alt="Wrap" class="food-item" id="food-wrap-left">
+    <img src="images/8.png" alt="Salad" class="food-item" id="food-salad">
+    <img src="images/1 (1).png" alt="Soup" class="food-item" id="food-soup">
+    <img src="images/4.png" alt="Paneer Dish" class="food-item" id="food-paneer-bottom">
 
-    <section class="menu">
-     
-    <!--  <div class="frame-child menu-links hover:translate-y-[-0.25rem] item1">
-        <div class="items m-5 item_1 text-white text-lg">
-          <a
-            href="https://drive.google.com/file/d/1HZfLg6meH08W4aMhTkJtrrZ-9nkikKEs/view?usp=sharing"
-            >BREAKFAST</a
-          >
-        </div>
-      </div> 
-        -->
-      <div class="frame-item menu-links hover:translate-y-[-0.25rem] item2">
-        <div class="items m-5 text-white text-lg">
-          <a
-            href="https://drive.google.com/file/d/1rK_TSwkw3G93Pf_6R0EWmNm0XYjk_n44/view?usp=sharing"
-            >FOOD</a
-          >
-        </div>
-      </div>
-        <div class="frame-inner menu-links hover:translate-y-[-0.25rem] item3">
-        <div class="items m-5 text-white text-lg">
-          <a
-            href="https://drive.google.com/file/d/1BhNba_ECGgpCt4eegt8s659i-aHWEiOi/view?usp=sharing"
-            >DRINKS</a
-          >
-        </div>
-      </div> 
-    </section>
-
-    <div class="follow-us-on item4">Follow Us on:</div>
-
-    <div class="bayviewcafecolaba item5 text-center">
-      <a href="https://www.instagram.com/bayviewcafecolaba/"
-        >bayviewcafecolaba</a
-      >
+    <div class="menu-buttons">
+      <a href="#" class="menu-btn">FOOD</a>
+      <a href="#" class="menu-btn">DRINKS</a>
     </div>
 
-    <img
-      class="lilac-and-white-traditional-re item6"
-      alt=""
-      src="./public/instagram.png"
-    />
+    <div class="social-links">
+      <p>Follow Us On:</p>
 
-    <br />
-    <br />
+      <!-- Instagram -->
+      <div class="social-item">
+        <a href="https://www.instagram.com/bayviewcafecolaba/" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-2 text-gray-600 hover:text-pink-600 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>bayviewcafecolaba</span>
+        </a>
+      </div>
 
-    <img
-      class="lilac-and-white-traditional-re1 item7"
-      alt=""
-      src="./public/facebook.png"
-    />
-    <div class="bayview-cafe item8 px-4">Bayview Cafe</div>
-  </body>
+      <!-- Facebook -->
+      <div class="social-item">
+        <a href="https://www.facebook.com/BayviewCafe" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.6,9.5l-0.9,0c-1.8,0-2.1,0.8-2.1,2.1v2.5h3l-0.4,3H14.6V24h-4v-6.9H7.5V14h3.1v-2.8
+        c0-3,1.9-4.7,4.5-4.7c1.3,0,2.4,0.1,2.8,0.1V9.5z">
+            </path>
+          </svg>
+          <span>Bayview Cafe</span>
+        </a>
+      </div>
+
+    </div>
+    <div class="footer-text">
+      <p class="footer-title">BAYVIEW CAFÉ</p>
+      <p class="footer-subtitle">APOLLO BANDAR, COLABA</p>
+    </div>
+  </div>
+
+</body>
+
 </html>
