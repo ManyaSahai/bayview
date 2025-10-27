@@ -100,7 +100,7 @@ body {
 .logo-hotel {
   top: -1%;
   position: absolute;
-  right: 7.5%;
+  right: 5.5%;
   width: 30%; /* increased from 14% */
 }
 
@@ -162,7 +162,7 @@ body {
 /* --- 3. Center Buttons (in % and em) --- */
 .menu-buttons {
   position: absolute;
-  top: 38%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
