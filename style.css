@@ -112,7 +112,6 @@ body {
 }
 
 /* --- Food Items (Responsive Positions & Sizes in %) --- */
-
 #food-pizza {
   top: 7.4%; /* 80px / 850px */
   left: -12.5%; /* -50px / 400px */
@@ -138,14 +137,14 @@ body {
 }
 
 #food-wrap-left {
-  top: 55%; /* 510px / 850px */
-  left: -20%; /* -80px / 400px */
+  top: 50%; /* 510px / 850px */
+  left: -15%; /* -80px / 400px */
   width: 57.5%; /* 230px / 400px */
 }
 
 #food-salad {
-  top: 58.5%; /* 540px / 850px */
-  right: -15%; /* -60px / 400px */
+  top: 52%; /* 540px / 850px */
+  /* -60px / 400px */
   width: 52.5%; /* 210px / 400px */
 }
 
@@ -159,6 +158,57 @@ body {
   bottom: 4.7%; /* 40px / 850px */
   right: -15%; /* -60px / 400px */
   width: 52.5%; /* 210px / 400px */
+}
+
+/* --- Responsive Fix: Prevent Overlap on Mobile --- */
+@media (max-width: 768px) {
+  #food-pizza {
+    top: 6%;
+    left: -5%;
+    width: 45%;
+  }
+
+  #food-dessert {
+    top: 14%;
+    right: -4%;
+    width: 35%;
+  }
+
+  #food-platter {
+    top: 34%;
+    left: -6%;
+    width: 42%;
+  }
+
+  #food-paneer-right {
+    top: 38%;
+    right: -6%;
+    width: 45%;
+  }
+
+  #food-wrap-left {
+    top: 50%; /* 510px / 850px */
+    left: -15%;
+    width: 50%;
+  }
+
+  #food-salad {
+    top: 56%;
+    right: -8%;
+    width: 48%;
+  }
+
+  #food-soup {
+    bottom: 6%;
+    left: -6%;
+    width: 42%;
+  }
+
+  #food-paneer-bottom {
+    bottom: 4%;
+    right: -8%;
+    width: 45%;
+  }
 }
 
 /* --- 3. Center Buttons (in % and em) --- */
