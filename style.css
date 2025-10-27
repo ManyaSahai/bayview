@@ -93,14 +93,14 @@ body {
   top: 1%;
   position: absolute;
 
-  left: 7.5%; /* 30px / 400px */
+  left: 3%; /* 30px / 400px */
   width: 17.5%; /* 70px / 400px */
 }
 
 .logo-hotel {
   top: -1%;
   position: absolute;
-  right: 5.5%;
+  right: 1%;
   width: 30%; /* increased from 14% */
 }
 
@@ -111,14 +111,16 @@ body {
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
 }
 
+/* --- Food Items (Responsive Positions & Sizes in %) --- */
+
 #food-pizza {
-  top: 3.5%; /* 110px / 850px */
+  top: 7.4%; /* 80px / 850px */
   left: -12.5%; /* -50px / 400px */
   width: 55%; /* 220px / 400px */
 }
 
 #food-dessert {
-  top: 12%; /* 140px / 850px */
+  top: 16.5%; /* 140px / 850px */
   right: -10%; /* -40px / 400px */
   width: 40%; /* 160px / 400px */
 }
@@ -136,13 +138,13 @@ body {
 }
 
 #food-wrap-left {
-  top: 60%; /* 510px / 850px */
+  top: 55%; /* 510px / 850px */
   left: -20%; /* -80px / 400px */
   width: 57.5%; /* 230px / 400px */
 }
 
 #food-salad {
-  top: 63.5%; /* 540px / 850px */
+  top: 58.5%; /* 540px / 850px */
   right: -15%; /* -60px / 400px */
   width: 52.5%; /* 210px / 400px */
 }
