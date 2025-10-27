@@ -169,7 +169,7 @@ body {
   }
 
   #food-dessert {
-    top: 14%;
+    top: 10%;
     right: -4%;
     width: 35%;
   }
@@ -181,8 +181,9 @@ body {
   }
 
   #food-paneer-right {
-    top: 38%;
-    right: -6%;
+    top: 30%;
+    right: -12%;
+
     width: 45%;
   }
 
@@ -193,8 +194,8 @@ body {
   }
 
   #food-salad {
-    top: 56%;
-    right: -8%;
+    top: 50%;
+    right: -15%;
     width: 48%;
   }
 
